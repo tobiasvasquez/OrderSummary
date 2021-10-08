@@ -10,26 +10,26 @@ body {
     background-color: hsl(225, 100%, 94%);
 }
 
-.main-card {
+.card {
     border-radius: 0px 0px 10px 10px;
     width: 300px;
     margin: 100px auto 50px auto;
     background-color: white;
 }
 
-.main-card__img {
+.card__img {
     width: 300px;
     border-radius: 10px 10px 0px 0px;
 }
 
-.main-card__title {
+.card__title {
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     color: hsl(223, 47%, 23%);
     margin-top: 20px;
 }
 
-.main-card__description {
+.card__description {
     text-align: center;
     font-family: 'Red Hat Display', sans-serif;
     color: hsl(224, 23%, 55%);
@@ -38,7 +38,7 @@ body {
     margin: 10px auto;
 }
 
-.main-card__info {
+.card__info {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,15 +49,15 @@ body {
     margin: 20px auto 20px auto;
     padding: 10px 20px;
 }
-.main-card__price{
+.card__price{
     font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
-.main-card__info--blue{
+.card__info--blue{
     color: hsl(224, 23%, 55%);
     font-weight: 500;
 }
-.main-card--proceed {
+.card--proceed {
     background-color: blue;
     color: white;
     font-family: 'Red Hat Display', sans-serif;
@@ -71,7 +71,7 @@ body {
     font-weight: 700;
 }
 
-.main-card--cancel {
+.card--cancel {
     background-color: transparent;
     color: hsl(224, 23%, 55%);
     font-family: 'Red Hat Display', sans-serif;
@@ -99,7 +99,7 @@ body {
 
     }
 
-    .main-card {
+    .card {
         background-color: white;
         width: 450px;
         margin: 0px auto 50px auto;
@@ -107,7 +107,7 @@ body {
 
     }
 
-    .main-card__img {
+    .card__img {
         border-radius: 10px 10px 0px 0px;
         display: block;
         margin: 0 auto;
@@ -115,14 +115,14 @@ body {
         width: 100%;
     }
 
-    .main-card__title {
+    .card__title {
         text-align: center;
         font-family: 'Red Hat Display', sans-serif;
         padding-top: 25px;
         color: hsl(223, 47%, 23%);
     }
 
-    .main-card__description {
+    .card__description {
         text-align: center;
         font-family: 'Red Hat Display', sans-serif;
         width: 300px;
@@ -131,7 +131,7 @@ body {
         color: hsl(224, 23%, 55%);
     }
 
-    .main-card__info {
+    .card__info {
         font-family: 'Red Hat Display', sans-serif;
         display: flex;
         align-items: center;
@@ -139,23 +139,23 @@ body {
         background-color: hsl(225, 100%, 98%);
     }
 
-    .main-card__info--blue {
+    .card__info--blue {
         color: hsl(224, 23%, 55%);
     }
 
-    .main-card__price {
+    .card__price {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 700;
         color: hsl(223, 47%, 23%);
         margin-left: -70px;
     }
 
-    .main-card__status {
+    .card__status {
         margin-top: 50px;
         padding-bottom: 50px;
     }
 
-    .main-card--proceed {
+    .card--proceed {
         background-color: blue;
         color: white;
         font-family: 'Red Hat Display', sans-serif;
@@ -169,12 +169,12 @@ body {
         font-weight: 700;
     }
 
-    .main-card--proceed:hover {
+    .card--proceed:hover {
         background-color: hsl(245, 75%, 52%);
         cursor: pointer;
     }
 
-    .main-card--cancel {
+    .card--cancel {
         background-color: transparent;
         color: hsl(224, 23%, 55%);
         font-family: 'Red Hat Display', sans-serif;
@@ -187,7 +187,7 @@ body {
         padding: 10px;
     }
 
-    .main-card--cancel:hover {
+    .card--cancel:hover {
         color: hsl(223, 47%, 23%);
         cursor: pointer;
     }
